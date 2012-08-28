@@ -158,7 +158,9 @@ div.main-container h1{
 	font-weight:400;
 	line-height:normal;
 	margin:0 0 15px;
-	padding:0
+	padding:0;
+	text-align: right;
+
 }
 
 div.main-container h2{
@@ -166,8 +168,9 @@ div.main-container h2{
 	color: #993399!important;
 	font-weight:400;
 	line-height:normal;
-	margin:0 0 15px;
-	padding:0
+	margin:0 1em 0;
+	padding:0;
+	text-align: right;
 
 }
 
@@ -177,16 +180,17 @@ div.main-container h3{
 	font-weight:400;
 	line-height:normal;
 	margin:0 0 15px;
-	padding:0
+	padding:0;
 
 }
 
 div.main-container h4,div.main-container h5,div.main-container h6{
-	font-family:TangerineBold, Arial, Helvetica, sans-serif;
+	font-family:Artifika, Arial, Helvetica, sans-serif;
 	font-weight:400;
 	line-height:normal;
 	margin:0 0 15px;
-	padding:0
+	padding:0 0 0 1em;
+	text-decoration: underline;
 	}
 
 h1{	
@@ -194,7 +198,7 @@ h1{
 	}
 
 h2{	
-	font-size:42px;
+	font-size:50px;
 	}
 
 h3{
@@ -202,7 +206,7 @@ h3{
 	}
 
 h4{
-	font-size:24px;
+	font-size:20px;
 	}
 
 h5{
@@ -212,6 +216,14 @@ h5{
 h6{
 	font-size:18px;
 	}
+
+
+hr {
+	border:1px solid;
+	color: #dda0dd;
+	width: 300px;
+
+}
 
 
 /* |--------------------------------------------------------------------------
@@ -243,6 +255,26 @@ header{
 }
 
 
+/* |--------------------------------------------------------------------------
+|Contingut
+|-------------------------------------------------------------------------- */
+
+.noticia {
+	display: block;
+	text-align: justify;
+	padding:1em;
+
+}
+
+.noticia img{
+	display:inline;
+	float:left;
+	padding-right: 1em;
+	}
+
+.noticia a {
+	float:right!important;
+}
 
 #sub-headline{
 	border-bottom:1px solid #666;
